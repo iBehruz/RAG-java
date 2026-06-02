@@ -30,7 +30,6 @@ public class RagService {
         String context = documents.stream()
                 .map(Document::getText)
                 .reduce("", (a, b) -> a + "\n\n" + b);
-        System.out.println(context);
         return chatClient.prompt()
                 .system("""
                         Ты помощник, который отвечает только на основе переданного контекста.
