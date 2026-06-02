@@ -1,0 +1,4 @@
+com/rag/backend/service/DocumentIndexingService.class
+com/rag/backend/controller/RagController.class
+com/rag/backend/service/RagService.class
+com/rag/backend/RagJavaApplication.class
