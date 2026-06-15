@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fa9cfa4-13bc-4630-bfec-9994954b15da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rag/backend/dto/AskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rag/backend/dto/AudioContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rag/backend/controller/RagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rag/backend/controller/RagController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rag/backend/service/RagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rag/backend/service/RagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rag/backend/controller/RagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rag/backend/controller/RagController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rag/backend/service/RagService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rag/backend/service/RagService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/rag/backend/service/RagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rag/backend/service/RagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
