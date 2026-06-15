@@ -69,7 +69,7 @@ public class RagService {
     public Flux<String> streamWithText(String question) {
         return chatClient.prompt()
                 .user(question)
-                .system("You are agent in electronics measurement field. You will answer to questions based on question language which is only in English, Russian or Uzbek language.")
+                .system("You are agent in electronics measurement field.You will answer questions only in the language in which they are asked.Only possible languages are English, Russian or Uzbek.")
                 .stream()
                 .content();
     }
@@ -88,7 +88,7 @@ public class RagService {
                 vectorStore.similaritySearch(request);
         return chatClient.prompt()
                 .user(docs.getFirst().getText())
-                .system("You are agent in electronics measurement field. You will answer to questions based on question language which is only in English, Russian or Uzbek language.")
+                .system("You are agent in electronics measurement field.You will answer questions only in the language in which they are asked.Only possible languages are English, Russian or Uzbek.")
                 .stream()
                 .content();
     }
